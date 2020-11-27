@@ -66,9 +66,10 @@ ul li{
 
 
 .page2{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 100vh;  
     display: flex;
+    justify-content: space-evenly;
   }
 
 .abtlogo{
@@ -77,14 +78,14 @@ ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:red;
+    /* background-color:red; */
 
 }
 .abtlogo svg{
     margin: 0px;
     padding: 0px;
     width: 580px;
-    background-color: darkmagenta;
+    /* background-color: darkmagenta; */
 } 
 .abtlogo text{
     position: relative;
@@ -93,15 +94,25 @@ ul li{
     z-index: 1;
 }
 .about p{
-    background-color: yellow;
+    width: 750px;
+    /* background-color: yellow; */
     display: flex;
-    font-size: 23px;
+    font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
     font-stretch: normal;
     font-weight: 400;
 }
 .about{
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.page3{
+    /* background-color: aqua; */
+    height: 100vh;  
+    display: flex;
+    justify-content: space-evenly;
+  }
