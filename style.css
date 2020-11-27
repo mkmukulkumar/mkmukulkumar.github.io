@@ -5,13 +5,11 @@ body{
     font-family: 'TW Cen MT';
     font-stretch: condensed;
     font-weight: 800;
-    /* background-image: url("grow.svg");
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
+ 
 }
 header{
     background-color: #555;
-    width: 100vw;
+    width: 100%;
     height:20vh;
     border-radius: 0  0 50% 50%;
     display: flex;
@@ -59,89 +57,51 @@ ul li{
 }
   .cartoonized
   { height: 80vh;
- /* z-index: 4; 
-    top: 150px;
-    right: 30px;  */
   }  
 .intro
 {   margin: 0px;
     padding: 0px;  
-    /* position:absolute;
-   
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
 }
 
 
-/* #backg{   
-    position: static;  
-    widows: 1920px;
-    overflow:hidden;
-} 
-.triangle{
-    position: absolute;
+
+.page2{
+    background-color: aqua;
+    height: 100vh;  
     display: flex;
-    justify-content: center;
-    margin:0px;
-    padding: 0px;
-    width: 100vw;
-    z-index: 0;
-}
-div{
+  }
+
+.abtlogo{
+    margin-top: -100px;
+    margin-left: -400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:red;
+
 }
-ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin:0px;
+.abtlogo svg{
+    margin: 0px;
     padding: 0px;
-    z-index: 3;
-}    
-
-ul li{
-    margin: 10px;
-    padding: 0px;
-    display: inline;
+    width: 580px;
+    background-color: darkmagenta;
 } 
-.tab{
-    display: inline-block;
-    border-radius: 15px;
-    height: 50px;
-    line-height: 50px;
-    width: 150px;
-    margin:0px;
-    padding: 0px;
-    border: 1px solid black;
-    background-color: black;
+.abtlogo text{
+    position: relative;
+    margin-top: 30px;
+    left: 510px;;
+    z-index: 1;
+}
+.about p{
+    background-color: yellow;
+    display: flex;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
     font-stretch: normal;
-    font-weight: bold;
-    font-size: 25px;
-    color: white;    
-    text-align: center;
-    text-decoration: none;
-    font-family: 'TW Cen MT';
-  } 
-  .cartoonized
-  { width: 80vh;
-    position: absolute;
-    z-index: 4; 
-    top: 150px;
-    right: 30px;
-  }
-  .intro
-  {
-      position:absolute;
-      top: 50%;
-      margin-left: 150px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-  }
-
-  #about{
-      position: relative;
-  } */
+    font-weight: 400;
+}
+.about{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+}
