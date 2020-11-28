@@ -47,6 +47,7 @@ ul li{
     text-align: center;
     text-decoration: none;
     font-family: 'TW Cen MT';
+    align-self: centerZ;
   } 
 
 .page1{  
@@ -57,7 +58,9 @@ ul li{
 }
   .cartoonized
   { height: 80vh;
+    overflow: hidden;
   }  
+
 .intro
 {   margin: 0px;
     padding: 0px;  
@@ -66,7 +69,6 @@ ul li{
 
 
 .page2{
-    /* background-color: aqua; */
     height: 100vh;  
     display: flex;
     justify-content: space-evenly;
@@ -78,14 +80,11 @@ ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color:red; */
-
 }
 .abtlogo svg{
     margin: 0px;
     padding: 0px;
     width: 580px;
-    /* background-color: darkmagenta; */
 } 
 .abtlogo text{
     position: relative;
@@ -95,15 +94,13 @@ ul li{
 }
 .about p{
     width: 750px;
-    /* background-color: yellow; */
     display: flex;
-    font-size: 32px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-stretch: normal;
     font-weight: 400;
 }
 .about{
-    /* background-color: orange; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,8 +108,49 @@ ul li{
 }
 
 .page3{
-    /* background-color: aqua; */
-    height: 100vh;  
+    height: 250vh;  
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+line{
+    background-color:#FFA200;
+    width: 700px;
+    height:15px;
+    align-self: flex-end;
+    
+}
+.page3 div{
     display: flex;
     justify-content: space-evenly;
-  }
+}
+.page3 img{
+    height: 35vh;
+    overflow: hidden;
+}
+.proorder div p{
+    width: 700px;
+    display: flex;
+    flex-direction: column ;
+    font-size: 21px;
+    font-family: "georgia";
+    font-stretch: normal;
+    font-weight: 400;
+}
+.proorder div p Text{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.proorder{
+    margin-top: -40px;
+    height: 250vh;  
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+.proorder div{
+    align-items: center;
+}
