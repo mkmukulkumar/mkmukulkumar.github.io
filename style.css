@@ -99,6 +99,7 @@ ul li{
     font-family: 'Times New Roman', Times, serif;
     font-stretch: normal;
     font-weight: 400;
+    text-align: justify;
 }
 .about{
     display: flex;
@@ -117,7 +118,7 @@ ul li{
 line{
     background-color:#FFA200;
     width: 700px;
-    height:15px;
+    height:12.5px;
     align-self: flex-end;
     
 }
@@ -137,6 +138,7 @@ line{
     font-family: "georgia";
     font-stretch: normal;
     font-weight: 400;
+    text-align: justify;
 }
 .proorder div p Text{
     font-size: 30px;
@@ -153,4 +155,51 @@ line{
 }
 .proorder div{
     align-items: center;
+}
+
+
+.page4
+{
+    height: 250vh;  
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;  
+}
+
+.wkheading{
+    display: flex;
+    justify-content: space-evenly;
+}
+.apporder img{
+    height:80vh;
+    object-fit: contain;
+}
+.apporder{ 
+    margin-top: 70px;
+    height: 250vh;  
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+.apporder div{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.uiorder{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.uiorder img{
+  position: absolute;  
+  height:100%;
+  right:0px;
+}
+.uiorder svg{
+    margin-left: 100px;
 }
