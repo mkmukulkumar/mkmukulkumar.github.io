@@ -159,11 +159,12 @@ line{
 
 
 .page4
-{
-    height: 250vh;  
+ {
+   /*   background-color: burlywood; */
+    /* height: 400vh;   */
     display: flex;
     flex-direction: column;
-    align-items: stretch;  
+    /* align-items: stretch;   */
 }
 
 .wkheading{
@@ -180,7 +181,6 @@ line{
     display: flex;
     flex-direction: column;
     align-items: stretch;
-
 }
 .apporder div{
     padding: 0px;
@@ -191,15 +191,61 @@ line{
     align-items: center;
 }
 .uiorder{
-    width: 100vw;
     height: 100vh;
-    overflow: hidden;
 }
 .uiorder img{
-  position: absolute;  
-  height:100%;
-  right:0px;
+    height: 80vh;
+
 }
 .uiorder svg{
     margin-left: 100px;
+}
+.webd{
+    height: 100vh;
+    display: flex; 
+    align-items: stretch;
+    justify-content: space-around;
+
+}
+.webd img{
+    height: 100vh;
+    margin-left: 50px;
+}
+.webd div{
+    position: absolute;
+    right:10%;
+    margin-top: 15%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.webd div p{
+    font-size: 40px; 
+    font-family: showcard gothic; 
+    color:#007140;
+    text-align: center; 
+    text-shadow: 1px 1px 1px black;
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+.pcbd{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pcbd img{
+    margin-right: 5%;
+    height: 80vh;
+}
+.spark{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.spark img{
+    height: 90vh;
 }
