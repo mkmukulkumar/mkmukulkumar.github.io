@@ -261,6 +261,7 @@ line{
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    /* background-color: royalblue; */
 }
 .foot{
     display: flex;
@@ -293,8 +294,8 @@ footer{
     justify-self: center;
     height: 0%;
     width: 0%;
-    border-left: 49vw solid transparent;
-    border-right: 49vw solid transparent;
+    border-left: 49.4vw solid transparent;
+    border-right: 49.4vw solid transparent;
     border-bottom: 30vh solid #555555;
     }
 
@@ -308,19 +309,48 @@ footer{
 
 .ul{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    margin-bottom: -30vh;
+
 }
 .page5 ul{
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    margin:0px;
     padding: 0px;
     z-index: 3;
-
+    /* background-color: tan; */
 }    
 
 .page5 ul li{
     margin: 10px;
     padding: 0px;
 } 
+.conlogo{
+    width: 600px;
+    /* background-color: steelblue; */
+}
+.conlogo text{
+    position: relative;
+    top: 370px;
+    left: 115px;
+    
+}
+.conlogo svg{
+    margin-bottom: 150px;
+    padding: 0px;
+    width: 580px;
+} 
+.conicon{
+    position: relative;
+    top: 55vh;
+    left:-13vw;
+    height: 370px;
+    width: 370px;
+    /* background-color: springgreen; */
+}
+.conicon img{
+    height: 45px;
+
+}
+
