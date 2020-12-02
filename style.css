@@ -160,11 +160,8 @@ line{
 
 .page4
  {
-   /*   background-color: burlywood; */
-    /* height: 400vh;   */
     display: flex;
     flex-direction: column;
-    /* align-items: stretch;   */
 }
 
 .wkheading{
@@ -253,15 +250,11 @@ line{
 
 
 
-
-
-
 .page5{
     height: 100vh;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    /* background-color: royalblue; */
 }
 .foot{
     display: flex;
@@ -319,7 +312,6 @@ footer{
     list-style-type: none;
     padding: 0px;
     z-index: 3;
-    /* background-color: tan; */
 }    
 
 .page5 ul li{
@@ -328,7 +320,6 @@ footer{
 } 
 .conlogo{
     width: 600px;
-    /* background-color: steelblue; */
 }
 .conlogo text{
     position: relative;
@@ -347,7 +338,6 @@ footer{
     left:38vw;
     height: 370px;
     width: 370px;
-    /* background-color: springgreen; */
 }
 .conicon img{
     height: 45px;
