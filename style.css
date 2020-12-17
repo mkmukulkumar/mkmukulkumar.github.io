@@ -28,7 +28,7 @@ ul{
 }    
 
 ul li{
-    margin: 0.5vh;
+    margin: 0.7vmin;
     padding: 0px;
     display: inline;
 
@@ -38,14 +38,14 @@ ul li{
     border-radius: 1vmin;
     height: 5vh;
     line-height: 5vh;
-    width: 10vw;
+    width: 11.5vw;
     margin:0vw;
     padding: 0vw;
     border: 0.1vh solid black;
     background-color: black;
     font-stretch: normal;
     font-weight: bold;
-    font-size: 2.5vmin;
+    font-size: 1.5vmax;
     color: white;    
     text-align: center;
     text-decoration: none;
@@ -59,9 +59,11 @@ ul li{
   justify-content: space-evenly;
   align-items: center;
   height: 80vh;
+
 }
   .cartoonized
-  { height: 80vmin;   
+  { height: 80vmin;  
+    object-fit: contain;
   }  
 
 .intro
@@ -74,7 +76,18 @@ ul li{
 @media screen and (orientation:portrait) {
     .page1 {
         flex-direction: column-reverse;
-        justify-self: stretch;        
+        height: 90vh;
+        justify-content: center;
+        background-color: greenyellow;
+    }
+    header{ 
+        height:10vh;
+    }
+
+    .intro
+    {
+        margin-top: 5vh;
+        align-items: center;
     }
 }
 
@@ -82,14 +95,15 @@ ul li{
 
 
 .page2{
-    height: 100vh;  
+    height: 101vh;  
     display: flex;
     justify-content: space-evenly;
   }
 
 .abtlogo{
-    margin-top: -100px;
-    margin-left: -400px;
+    z-index: -1;
+    margin-top: -10vmin;
+    margin-left: -50vmin;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,18 +111,19 @@ ul li{
 .abtlogo svg{
     margin: 0px;
     padding: 0px;
-    width: 580px;
+    width: 58vmin;
 } 
 .abtlogo text{
     position: relative;
-    margin-top: 30px;
-    left: 510px;;
+    margin-top: 4vmin;
+    left: 50vmin;;
     z-index: 1;
 }
 .about p{
-    width: 750px;
+    /* background-color: green; */
+    width: 50vw;
     display: flex;
-    font-size: 30px;
+    font-size: 2vw;
     font-family: 'Times New Roman', Times, serif;
     font-stretch: normal;
     font-weight: 400;
@@ -119,6 +134,22 @@ ul li{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+@media screen and (orientation:portrait) {
+
+    .page2{
+        flex-direction: column;
+      }
+    .about p{
+        width: 90vw;
+        font-size: 3.7vw;
+    } 
+    .abtlogo{
+        margin-top: -5vw;
+        margin-left: -40vw;
+    }
+
+
 }
 
 .page3{
