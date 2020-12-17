@@ -62,7 +62,7 @@ ul li{
 
 }
   .cartoonized
-  { height: 80vmin;  
+  { height: 80vh;  
     object-fit: contain;
   }  
 
@@ -78,16 +78,26 @@ ul li{
         flex-direction: column-reverse;
         height: 90vh;
         justify-content: center;
-        background-color: greenyellow;
+    }
+    .tab{
+        width: 15vw;
+        height:3vh;
+        line-height: 3vh;
     }
     header{ 
         height:10vh;
     }
-
+    .cartoonized
+    { height: 95vw;  
+      object-fit: contain;
+    }  
     .intro
     {
         margin-top: 5vh;
         align-items: center;
+    }
+    .intro Text{
+        font-size: 100%;
     }
 }
 
@@ -102,8 +112,8 @@ ul li{
 
 .abtlogo{
     z-index: -1;
-    margin-top: -10vmin;
-    margin-left: -50vmin;
+    margin-top: -4vw;
+    margin-left: -25vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,16 +121,17 @@ ul li{
 .abtlogo svg{
     margin: 0px;
     padding: 0px;
-    width: 58vmin;
+    width: 30vw;
 } 
 .abtlogo text{
     position: relative;
-    margin-top: 4vmin;
-    left: 50vmin;;
+    margin-top: 2vw;
+    left: 25vw;;
     z-index: 1;
+    font-size: 4.3vw; 
+    font-family: "Geometr415 Blk BT";
 }
 .about p{
-    /* background-color: green; */
     width: 50vw;
     display: flex;
     font-size: 2vw;
@@ -135,18 +146,31 @@ ul li{
     align-items: center;
     justify-content: center;
 }
+
 @media screen and (orientation:portrait) {
 
     .page2{
         flex-direction: column;
+        justify-content: center;
       }
     .about p{
         width: 90vw;
         font-size: 3.7vw;
     } 
     .abtlogo{
-        margin-top: -5vw;
-        margin-left: -40vw;
+       
+        margin-top: -12vw;
+        margin-left: -33vw;
+    }
+    .abtlogo svg{
+        width: 60vw;
+    } 
+    .abtlogo text{
+        position: relative;
+        margin-top: 4vw;
+        left: 50vw;;
+        z-index: 1;
+        font-size: 8.6vw;
     }
 
 
