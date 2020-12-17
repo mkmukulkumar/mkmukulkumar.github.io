@@ -61,10 +61,11 @@ ul li{
   height: 80vh;
 
 }
-  .cartoonized
-  { height: 80vh;  
+.cartoonized
+{
+    height: 80vh;  
     object-fit: contain;
-  }  
+}  
 
 .intro
 {   margin: 0px;
@@ -73,6 +74,7 @@ ul li{
     align-items: stretch;
     flex-direction: column;
 }
+
 @media screen and (orientation:portrait) {
     .page1 {
         flex-direction: column-reverse;
@@ -172,9 +174,10 @@ ul li{
         z-index: 1;
         font-size: 8.6vw;
     }
-
-
 }
+
+
+
 
 .page3{
     height: 250vh;  
@@ -182,39 +185,43 @@ ul li{
     flex-direction: column;
     align-items: stretch;
 }
-
+.proheading Text{
+    font-size: 5.5vw; 
+    font-family: "Geometr415 Blk BT";
+    margin-top: 1vh;
+}
 line{
     background-color:#FFA200;
-    width: 700px;
+    width: 48vw;
     height:12.5px;
-    align-self: flex-end;
-    
+    align-self: flex-end;    
 }
+
 .page3 div{
     display: flex;
     justify-content: space-evenly;
 }
 .page3 img{
-    height: 35vh;
+    height: 20vw;
     overflow: hidden;
 }
 .proorder div p{
-    width: 700px;
+    width: 48vw;
     display: flex;
     flex-direction: column ;
-    font-size: 21px;
+    font-size: 1.45vw;
     font-family: "georgia";
     font-stretch: normal;
     font-weight: 400;
     text-align: justify;
 }
 .proorder div p Text{
-    font-size: 30px;
+    font-size: 2vw;
     margin-bottom: 15px;
     font-weight: bold;
 }
 .proorder{
-    margin-top: -40px;
+    margin-top: -4vh;
     height: 250vh;  
     display: flex;
     flex-direction: column;
@@ -224,7 +231,37 @@ line{
 .proorder div{
     align-items: center;
 }
-
+@media screen and (orientation:portrait) {
+    .page3{
+       height: 120vh;
+    }
+    .proheading Text{
+        font-size: 8vw; 
+    }
+    .proheading{
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    line{
+        margin: 1.5vh;
+        align-self:center;    
+    }
+    .proorder div p{
+        width: 50vw;
+        font-size: 2vw;
+        font-weight: 400;
+    }
+    .proorder div p Text{
+        font-size: 3vw;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    .proorder{
+        margin-top: -2vh;
+    }
+}
 
 .page4
  {
