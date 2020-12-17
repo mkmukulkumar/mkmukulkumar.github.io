@@ -34,13 +34,13 @@ ul li{
 } 
 .tab{
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 1vmin;
     height: 5vh;
     line-height: 5vh;
     width: 10vw;
-    margin:0px;
-    padding: 0px;
-    border: 1px solid black;
+    margin:0vw;
+    padding: 0vw;
+    border: 0.1vh solid black;
     background-color: black;
     font-stretch: normal;
     font-weight: bold;
