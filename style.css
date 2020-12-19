@@ -157,7 +157,7 @@ ul li{
       }
     .about p{
         width: 90vw;
-        font-size: 3.7vw;
+        font-size: 3.5vw;
     } 
     .abtlogo{
        
@@ -210,15 +210,17 @@ line{
     display: flex;
     flex-direction: column ;
     font-size: 1.45vw;
-    font-family: "georgia";
+    font-family: 'Times New Roman', Times, serif;
     font-stretch: normal;
     font-weight: 400;
     text-align: justify;
 }
 .proorder div p Text{
     font-size: 2vw;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: normal;
 }
 .proorder{
     margin-top: -4vh;
@@ -228,18 +230,26 @@ line{
     align-items: stretch;
 
 }
+.splash img{
+    height: 35vw;
+}
 .proorder div{
     align-items: center;
 }
 @media screen and (orientation:portrait) {
     .page3{
-       height: 120vh;
+       height: 150vh;
+    }
+    .page3 img{
+        height: 30vw;
+        overflow: hidden;
     }
     .proheading Text{
         font-size: 8vw; 
     }
+    
     .proheading{
-        margin-top: 2vh;
+        margin-top: 2.5vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -249,17 +259,17 @@ line{
         align-self:center;    
     }
     .proorder div p{
-        width: 50vw;
-        font-size: 2vw;
+        width: 60vw;
+        font-size: 2.5vw;
         font-weight: 400;
+        font-family: 'Times New Roman', Times, serif;
     }
     .proorder div p Text{
-        font-size: 3vw;
-        margin-bottom: 15px;
+        font-size: 3.5vw;
         font-weight: bold;
     }
-    .proorder{
-        margin-top: -2vh;
+    .splash img{
+        height:50vw;
     }
 }
 
