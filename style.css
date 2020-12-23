@@ -293,13 +293,13 @@ line{
     height:70%;
     object-fit: contain;
     
-    background-color: darkblue;
+    /* background-color: darkblue; */
 }
 .apporder{ 
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
     justify-content: center;
 }
 .apporder text{
@@ -336,7 +336,7 @@ line{
     justify-content: space-between;
     height: 100vh;
     overflow:hidden;
-    background-color: plum;
+    /* background-color: plum; */
 }
 .uiorder img{
     height: 100vh;
@@ -367,37 +367,41 @@ line{
     display: flex; 
     justify-content: center;
     align-items: center;
-    /* align-items: stretch;
-    justify-content: space-around; */
+    /* align-items: stretch;*/
+    justify-content: space-evenly; 
     background-color: slateblue;
+    overflow: hidden;
 
 }
 .webd img{
     /* height: 45vw; */
-    height: 80vh;
+    height: 80vmin;
     object-fit: contain;
-    background-color: turquoise;
+    /* background-color: turquoise; */
 }
 .webd div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: #555;
-    margin-top: 20vw;
-
+    margin-top: 40vh;
+    position: absolute;
+    right: 2vw;
+    align-items: center;
+    
+}
+.webd div text{
+    font-size: 7vw; 
+    color: #180D50;
+    font-family: showcard gothic;
+    text-shadow: 1px 1px 1px black;
 }
 .webd div p{
-    font-size: 2.5vw; 
+    font-size: 2vw; 
     font-family: showcard gothic; 
     color:#007140; 
     text-shadow: 1px 1px 1px black;
-    line-height: 3vw;
-    margin-bottom:4vw;
+    margin-top:-1vw;
 }
-.webd div p text{
-    font-size: 8vw; 
-    color: #180D50
-}
+
 .webd svg{
     
     align-self: center;
@@ -410,18 +414,27 @@ line{
     justify-content: space-between;
 }
 .pcbd img{
-    margin-right: 5%;
+    margin-right: 4vw;
     height: 80vh;
+    margin-left: 4vw;
+    object-fit: contain;
 }
+.pcbd svg{
+height: 40vmin;
+}
+
 .spark{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 .spark img{
-    height: 90vh;
+    height: 65vh;
+    object-fit: contain;
 }
+
 @media screen and (orientation:portrait)
 {
     .wkheading{
@@ -454,7 +467,45 @@ line{
         margin-left:9vw;
         align-self: center;
     }
+    .webd{
+        flex-direction: column;
+        justify-content:center; 
+    }
+    .webd div{
+        margin-top:0vh;
+        position: unset;;
+        right: unset;
+        flex-direction: row;
+        align-items: unset;
+    }
 
+    .webd div p{
+        margin-top:unset;
+        font-size: 7vw;
+        margin-left: 1vh;
+    }
+    .pcbd svg{
+        height: 80vmin;
+        margin-left: unset;
+        } 
+    .pcbd img{
+        height:unset;
+        width:175vw;
+        transform: rotate(90deg);
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .spark{
+       height: 120vh;
+       flex-direction: column;
+       justify-content: space-around;
+    }
+    .spark img{
+        height: 70vw;
+    }
+    #cartoon{
+        height: 75vw;
+    }
 }
 
 
