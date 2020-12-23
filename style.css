@@ -624,13 +624,13 @@ footer{
     left:38vw; */
     display: flex;
     justify-content: space-evenly;
-    height: 100px;
+    height: 6vmin;
     width: 100vw;
     align-items: center;
     background-color:  #ffa200;
 }
 .conicon img{
-    height: 60px;
+    height: 5vmin;
 
 }
 @media screen and (orientation:portrait)
