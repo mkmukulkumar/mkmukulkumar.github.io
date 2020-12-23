@@ -369,7 +369,7 @@ line{
     align-items: center;
     /* align-items: stretch;*/
     justify-content: space-evenly; 
-    background-color: slateblue;
+    /* background-color: slateblue; */
     overflow: hidden;
 
 }
@@ -483,6 +483,9 @@ height: 40vmin;
         margin-top:unset;
         font-size: 7vw;
         margin-left: 1vh;
+    }
+    .pcbd{
+        height: 80vh;
     }
     .pcbd svg{
         height: 80vmin;
