@@ -2,7 +2,6 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: #f3f3f3;
-    /* font-family: 'TW Cen MT'; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-stretch: condensed;
     font-weight: 800;
@@ -50,7 +49,6 @@ ul li{
     color: white;    
     text-align: center;
     text-decoration: none;
-    /* font-family: 'TW Cen MT'; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-self: center;
   } 
@@ -134,8 +132,6 @@ ul li{
     z-index: 1;
     font-size: 4vw; 
     font-weight: 900;
-    /* font-family: "Geometr415 Blk BT"; */
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-stretch: normal;
 }
@@ -192,8 +188,6 @@ ul li{
 }
 .proheading Text{
     font-size: 5.5vw; 
-    /* font-family: "Geometr415 Blk BT"; */
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-stretch: normal;
     font-weight: 900;
@@ -295,8 +289,6 @@ line{
 }
 .wkheading Text{
     font-size: 5.5vw; 
-    /* font-family: "Geometr415 Blk BT"; */
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-stretch: normal;
     margin-top: 1vh;
@@ -304,14 +296,11 @@ line{
 .apporder img{
     height:70%;
     object-fit: contain;
-    
-    /* background-color: darkblue; */
 }
 .apporder{ 
     display: flex;
     flex-direction: column;
     height: 100vh;
-    /* background-color: darkcyan; */
     justify-content: center;
 }
 .apporder text{
@@ -348,7 +337,6 @@ line{
     justify-content: space-between;
     height: 100vh;
     overflow:hidden;
-    /* background-color: plum; */
 }
 .uiorder img{
     height: 100vh;
@@ -379,17 +367,16 @@ line{
     display: flex; 
     justify-content: center;
     align-items: center;
-    /* align-items: stretch;*/
+
     justify-content: space-evenly; 
-    /* background-color: slateblue; */
+
     overflow: hidden;
 
 }
 .webd img{
-    /* height: 45vw; */
+
     height: 80vmin;
     object-fit: contain;
-    /* background-color: turquoise; */
 }
 .webd div{
     display: flex;
@@ -531,7 +518,6 @@ height: 40vmin;
 
 
 .page5{
-    /* background-color: cornflowerblue; */
     height: 100vh;
     display: flex;
     justify-content: flex-end;
@@ -568,7 +554,6 @@ footer{
     justify-self: center;
     height: 0%;
     width: 0%;
-    /* margin-bottom:60px; */
     border-left: 49.4vw solid transparent;
     border-right: 49.4vw solid transparent;
     border-bottom: 30vh solid #555555;
@@ -585,7 +570,6 @@ footer{
 .ul{
     display: flex;
     justify-content: space-between;
-    /* background-color: blue; */
     margin-bottom: -20vh;
 }
 .page5 ul{
@@ -619,9 +603,6 @@ footer{
     z-index: -1;
 } 
 .conicon{
-    /* position: relative;
-    top: -35vw;
-    left:38vw; */
     display: flex;
     justify-content: space-evenly;
     height: 6vmin;
@@ -636,7 +617,7 @@ footer{
 @media screen and (orientation:portrait)
 {
     .page5{
-        /* height: 80vh; */
+        
     }
     footer{
         border-bottom: 15vh solid #555555;
