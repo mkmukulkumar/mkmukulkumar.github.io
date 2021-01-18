@@ -522,6 +522,7 @@ height: 40vmin;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    overflow-x: hidden;
 }
 .foot{
     display: flex;
